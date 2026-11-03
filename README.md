@@ -1,7 +1,8 @@
 # Instagram DM Bot
 
-The bot from the [Web3Wesley](https://www.youtube.com/@Web3Wesley) video "Claude Code Built My Instagram
-DM Bot for $5 a Month (Don't Pay ManyChat)". <!-- video link added once it's live -->
+The bot from the [Web3Wesley](https://www.youtube.com/@Web3Wesley) video
+["Claude Code Built My Instagram DM Bot for $5 a Month (Don't Pay ManyChat)"](https://www.youtube.com/watch?v=eiRj6AhXoBE)
+(public from 5 November 2026).
 
 A self-hosted comment-to-DM bot for **one** Instagram account (your own), built on Meta's official
 **Instagram API with Instagram Login** (`graph.instagram.com`, Graph API v26.0). It replaced ManyChat
