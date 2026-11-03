@@ -1,0 +1,29 @@
+{
+  "$comment": "Copy to triggers.json and edit. Keywords match whole words, case-insensitively. The intro is the ONE private reply Meta allows per comment; the link goes out only after the person replies. Placeholders: {username} {keyword} {link}; spintax {a|b|c}. A trigger without its own link / publicReply uses the value in defaults.",
+  "defaults": {
+    "link": "https://www.skool.com/your-community/about",
+    "intro": "{Hey|Hi} {username}, thanks for commenting {keyword}. Reply to this message with anything and I'll send you the link. Just so you know, this reply is automated.",
+    "linkMessage": "Here you go {username}: {link}",
+    "publicReply": false,
+    "publicReplies": [
+      "Sent you a DM",
+      "{Just sent|Sent} it over, check your DMs",
+      "It's in your DMs. If you don't see it, check your message requests"
+    ]
+  },
+  "triggers": [
+    {
+      "keyword": "SKILL",
+      "aliases": ["skills"],
+      "notPhrases": ["skill issue"],
+      "enabled": true
+    },
+    {
+      "keyword": "LOOP",
+      "link": "https://example.com/a-different-link-just-for-this-keyword",
+      "media": ["https://www.instagram.com/reel/YOUR_REEL_ID/"],
+      "publicReply": true,
+      "enabled": false
+    }
+  ]
+}
